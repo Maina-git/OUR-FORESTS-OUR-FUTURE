@@ -1,0 +1,208 @@
+.services{
+    flex:100%;
+    height:400vh;
+    background:rgb(172, 172, 111);
+    margin:50px 0
+}
+.services h1{
+    color:white;
+   text-align:left;
+    padding:20px;
+   margin:20px;
+}
+.services h3{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    margin:30px;
+}
+
+.services .offers{
+    background:white;
+    flex:100%;
+    height:130vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:center;
+    place-items:center;
+    justify-content:center;
+}
+.offers h1{
+    color:rgb(28, 28, 97);
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    margin:10px;
+    padding:10px;
+}
+.offers  .serviceItem{
+list-style:none;
+padding:5px;
+width:40vh;
+height:20vh;
+cursor:pointer;
+}
+
+.offers .serviceItem h2{
+text-align:center;
+padding:10px;
+margin:5px;
+}
+.offers .serviceItem  p{
+    text-align:left;
+    color:rgb(28, 28, 97);
+    padding:5px;
+}
+.ourTeam{
+    display:grid;
+    grid-template-columns:1fr;
+    justify-content:center;
+    place-items:center;
+    align-items:center;
+}
+.ourTeam .member{
+    width:100vh;
+    list-style:none;
+    height:40vh;
+    background:rgb(221, 185, 215);
+    margin:20px 0;
+    border-radius:10px;
+    display:flex;
+}
+
+
+.member img{
+    width:30vh;
+    margin:30px  20px;
+     width:30vh;
+     height:30vh;
+     border-radius:100%;
+}
+
+.member nav{
+    margin:0 30px;
+    text-align:left;
+}
+.member nav h1{
+    color:rgb(21, 21, 54);
+    text-align:left;
+}
+.member nav p{
+    color:rgb(28, 28, 97);
+    margin:10px  40px;
+    font-size:20px;
+}
+.member nav h3{
+    color:rgb(28, 28, 97);
+    margin:20px 40px;
+    text-decoration:underline
+}
+.services h2{
+    text-align:center;
+    padding:30px;
+    margin:20px 0;
+    color:rgb(28, 28, 97);
+    text-decoration:underline;
+}
+
+@media screen and (max-width:480px){
+
+    .services{
+        flex:100%;
+        height:550vh;
+        background:rgb(172, 172, 111);
+        margin:10px 0
+    }
+        .services .offers{
+            background:rgb(15, 15, 41);
+            flex:100%;
+            height:200vh;
+            display:grid;
+            grid-template-columns: 1fr;
+            align-items:center;
+            place-items:center;
+            justify-content:center;
+        }
+
+        .offers  .serviceItem{
+            list-style:none;
+            padding:0px;
+            width:40vh;
+            height:20vh;
+            cursor:pointer;
+            margin-bottom:50px;
+            }
+
+        .offers .serviceItem h2{
+            text-align:center;
+            padding:5px;
+            margin:5px;
+            color:white;
+            font-size:15px;
+            }
+
+
+         .offers .serviceItem  p{
+    text-align:left;
+    color:white;
+    padding:5px;
+    font-size:15px;
+} 
+.ourTeam .member{
+    width:50vh;
+    list-style:none;
+    height:65vh;
+    background:rgb(221, 185, 215);
+    margin:20px 0;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.member img{
+    width:20vh;
+    background-size:cover;
+    background-position:center;
+    margin:10px  50px;
+     width:30vh;
+     border-radius:100%;
+}
+
+.member nav{
+    text-align:center;
+}
+.member nav h1{
+    color:rgb(21, 21, 54);
+    text-align:center;
+    font-size:15px;
+    margin-bottom:0;
+}
+.member nav p{
+    color:rgb(28, 28, 97);
+    margin:10px  40px;
+    font-size:15px;
+}
+.member nav h3{
+    color:rgb(28, 28, 97);
+    margin:20px 40px;
+    text-decoration:underline;
+    font-size:20px;
+}
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
